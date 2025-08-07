@@ -24,8 +24,8 @@ do
 done
 
 # Create main branch
-git fetch origin __demo/setup
-git checkout -B main origin/__demo/setup
+git fetch origin __demo/main
+git checkout -B main origin/__demo/main
 git commit --allow-empty -m "Empty commit to ensure new refs and checks are always run"
 git push origin main --force -u
 

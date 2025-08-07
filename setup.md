@@ -5,7 +5,7 @@
 Resetting will do the following:
 
 * Close all demo PRs (PRs with a head ref of `pr-a`, `pr-b`, `pr-c`)
-* Seed a new `main` branch (from `__demo/setup`)
+* Seed a new `main` branch (from `__demo/main`)
 * Seed new PR branches
 * Create new PRs
 
@@ -14,7 +14,7 @@ To reset:
 1. Go to the **Actions** tab
 2. Select the `demo reset` workflow and then click **Run workflow**
    ![image](https://github.com/github/merge-queue-demo/assets/2503052/eb269945-ed9b-4194-bbaa-eb41f557c01d)
-3. Select the `__demo/setup` branch from the drop-down and click **Run workflow**
+3. Select the `__demo/main` branch from the drop-down and click **Run workflow**
    <img width="358" alt="image" src="https://github.com/github/gh-merge-queue/assets/2503052/e02769e9-e9a2-40de-a757-56fe63998ae2">
 
 ## How to initially setup the repo
@@ -26,7 +26,7 @@ In the repository settings, go to Actions->General. Near the bottom of the page,
 
 ### Create branches
 Create the following branches:
-* `__demo/setup`
+* `__demo/main`
 * `__demo/pr-a`
 * `__demo/pr-b`
 * `__demo/pr-c`

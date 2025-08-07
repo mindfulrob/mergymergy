@@ -12,7 +12,7 @@ jobs:
     - name: Git checkout
       uses: actions/checkout@v4
       with:
-        ref: '__demo/setup'
+        ref: '__demo/main'
         fetch-depth: '0'
 
     - name: git
