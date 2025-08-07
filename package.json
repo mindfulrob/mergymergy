@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/willsmythe/merge-queue-testing#readme",
   "dependencies": {
-    "mocha": "^9.1.1"
+    "mocha": "^11.7.1"
   }
 }
