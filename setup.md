@@ -21,6 +21,16 @@ To reset:
 
 > Note: only needed the first time setting up a new repo.
 
+### Allow Actions to create and approve PRs
+In the repository settings, go to Actions->General. Near the bottom of the page, make sure the box next to `Allow GitHub Actions to create and approve pull requests` is checked. You may need to enable this setting at the organization level first.
+
+### Create branches
+Create the following branches:
+* `__demo/setup`
+* `__demo/pr-a`
+* `__demo/pr-b`
+* `__demo/pr-c`
+
 ### Configure branch protections
 
 First, configure branch protections on `main` to require merge queue:
