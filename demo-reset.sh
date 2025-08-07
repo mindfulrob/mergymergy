@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-ORG="${GITHUB_REPOSITORY_OWNER:-willsmythe}"
-REPO_NWO="${GITHUB_REPOSITORY:-willsmythe/merge-queue-testing}"
+ORG="${GITHUB_REPOSITORY_OWNER:-mindfulrob}"
+REPO_NWO="${GITHUB_REPOSITORY:-mindfulrob/merge-queue-testing}"
 
 echo "NWO: $REPO_NWO"
 
